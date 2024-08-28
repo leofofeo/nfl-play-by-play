@@ -1,0 +1,3 @@
+[submodule "hosted-data"]
+	path = hosted-data
+	url = git@github.com:leofofeo/fpxp-hosted-parquet.git
