@@ -37,8 +37,8 @@ def fetch_and_store_files_in_s3(start_year: int, end_year: int, bucket_name: str
             print(f"An unexpected error occurred: {e}")
 
 if __name__ == "__main__":
-    START_YEAR = 2004
+    START_YEAR = 1999
     END_YEAR = 2023
-    BUCKET_NAME = 'yearly-play-by-play-data'
+    BUCKET_NAME = 'fpxp-historical-data'
 
     fetch_and_store_files_in_s3(START_YEAR, END_YEAR, BUCKET_NAME)
